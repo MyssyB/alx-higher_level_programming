@@ -15,11 +15,11 @@ int check_cycle(listint_t *list)
 
 	if (!list)
 		return (0);
-	while(ineff && eff && eff->next)
+	while (ineffi && effi && effi->next)
 	{
-		ineff = ineff->next;
-		eff = eff->next->next;
-		if(ineff == eff)
+		ineffi = ineffi->next;
+		effi = effi->next->next;
+		if (ineffi == effi)
 			return (1);
 	}
 	return (0);
