@@ -1,0 +1,14 @@
+import unittest
+from 0-add_integer import add_integer
+
+class TestAddInteger(unittest.TestCase):
+	def test_add_integer(self):
+# test to see if a and b are integers or float
+	self.assertEqual(type(add_integer(a)), [int, float])
+	self.assertEqual(type(add_integer(b)), [int, float]) 
+
+
+	def test_type(self):
+	# To make sure type errors are raised when necessary
+		self.assertRaises(TypeError, add_integer, -2) 
+	
