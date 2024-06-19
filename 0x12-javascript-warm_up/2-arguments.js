@@ -9,3 +9,4 @@ if (myArg.length === 0) {
 } else {
   console.log('Arguments found');
 }
+
